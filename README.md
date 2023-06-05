@@ -23,6 +23,12 @@
 
 ------------
 
+### Зібрано на Vite
+
++ TypeScript, postcss, tailwind
+
+------------
+
 ## Available Scripts
 
 In the project directory, you can run:
