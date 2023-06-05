@@ -16,41 +16,55 @@ footer {
       transform: rotate(45deg);
       transition: all 0.5s ease;
     }
+
+    &.active {
+      & + .ul-nav {
+        @apply mt-4 md:mt-0;
+      }
+
+      &::after {
+        transform: rotate(225deg);
+        margin-bottom: 0;
+      }
+    }
   }
 
   .nav-item {
     @apply w-full md:w-auto py-2 md:py-0;
 
-    &:hover {
+    &.exclude {
+      .ul-nav {
+        @apply max-h-none mt-4;
+      }
+
       h3 {
         &::after {
-          transform: rotate(225deg);
-          margin-bottom: 0;
+          content: none;
         }
       }
     }
   }
 
   .ul-nav {
-    @apply hidden mt-4 md:mt-0 md:block;
+    @apply max-h-0 md:max-h-none overflow-hidden transition-all duration-300 md:block;
 
     li {
       @apply text-xs text-white capitalize leading-11 mt-2;
 
       &:first-child {
-        margin-top: 0;
+        @apply mt-0;
       }
     }
 
     a {
-      display: block;
+      @apply block;
     }
 
     &.social-nav {
       @apply flex items-center gap-9 md:gap-7;
 
       li {
-        margin: 0;
+        @apply m-0;
       }
     }
   }
@@ -79,7 +93,7 @@ footer {
     }
 
     .current-lang {
-      position: relative;
+      @apply relative;
 
       > a {
         @apply after:content-[''] after:inline-block;

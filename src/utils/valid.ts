@@ -9,6 +9,7 @@ import {
   VALIDATE_ERROR_FIELD_CLASS,
   VALIDATE_ERROR_LABEL_CLASS,
 } from "../constants/form";
+import { Accordion } from "../modules/accordion";
 import { IErrorContainers, IStore, TElement } from "../types/plugin";
 
 export function getCardFieldsetErrContainer(inputName: string | null): IErrorContainers {
@@ -125,7 +126,7 @@ export async function sentForm(formData: FormData, formElement: HTMLFormElement)
   for (let [key, value] of formData.entries()) {
     data[key] = String(value);
   }
-  const response = await fetch("/submit-form", {
+  const response = await fetch("/", {
     method: "POST",
     headers: {
       "Content-Type": "application/json;charset=utf-8",
@@ -142,8 +143,18 @@ export async function sentForm(formData: FormData, formElement: HTMLFormElement)
   }
 }
 
-export function handleResize(cb: () => void): void {
-  if (window.matchMedia("(max-width: 767px)").matches) {
-    cb();
+export function handleResize(cb: () => void, footerNavClass: string): void {
+  const mediaQuery: MediaQueryList = window.matchMedia("(min-width: 768px)");
+  let accordion: Accordion = new Accordion(footerNavClass);
+
+  function handleScreenChange(event: MediaQueryListEvent | MediaQueryList) {
+    if (event.matches) {
+      accordion.destroy();
+    } else {
+      cb();
+      accordion.init();
+    }
   }
+  mediaQuery.addListener(handleScreenChange as (e: MediaQueryListEvent) => void);
+  handleScreenChange(mediaQuery);
 }

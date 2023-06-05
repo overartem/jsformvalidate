@@ -221,11 +221,6 @@
 
           &:active,
           &.active {
-            &::after {
-              transform: rotate(225deg);
-              top: 10px;
-            }
-
             .payment-companies-active {
               @apply block;
             }
@@ -239,6 +234,14 @@
             & + .payment-companies-dropdown {
               @apply mb-[18px];
             }
+          }
+        }
+
+        &:active,
+        &.active {
+          &::after {
+            transform: rotate(225deg);
+            top: 10px;
           }
         }
       }
