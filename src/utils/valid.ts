@@ -141,3 +141,9 @@ export async function sentForm(formData: FormData, formElement: HTMLFormElement)
     console.error(`Submit Error ${response.status}, ${response.statusText}`);
   }
 }
+
+export function handleResize(cb: () => void): void {
+  if (window.matchMedia("(max-width: 767px)").matches) {
+    cb();
+  }
+}
