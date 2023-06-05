@@ -437,6 +437,10 @@
         input {
           @apply rounded-b-none;
         }
+
+        .card-available {
+          @apply absolute top-1/2 gap-x-1 md:gap-x-2 right-3 md:right-6 -translate-y-1/2 flex items-center;
+        }
       }
     }
 
