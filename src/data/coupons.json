@@ -1,0 +1,19 @@
+{
+  "coupons": {
+    "store": {
+      "id": 0,
+      "name": "Store Coupon",
+      "value": "store"
+    },
+    "product": {
+      "id": 1,
+      "name": "Product Coupon",
+      "value": "product"
+    },
+    "customer": {
+      "id": 2,
+      "name": "Customer Coupon",
+      "value": "customer"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" width="18" height="18">
+	<title>snapchat</title>
+	<defs>
+		<image  width="18" height="18" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAMAAABhEH5lAAAAAXNSR0IB2cksfwAAAgFQTFRFAAAA/98A/98A/t4A/t4B/t4A/94A/t0A/t0A/twA/90A+dgA8NEB7c4A7M0B8dAA+NcA/90A/tsA/tsA/90A/t0B9NQA7MwA79Mg9OJv9eJv7cwA9tMB/9wB/9sA/9sB/toA/toA/twB/90B/9wB99YA9eJw////9OJw7MsA+tYA/9sA/tkA/9oA/9wA8NAA79Ig79Eg8c4A/9oA+NUB7csA9eFv7coA99MA/9kA/9gA89EA7MoA9uWA9uR/7MkA7ckA9dAA/tgA/tgB/9kB/9kA891g/fjf+/XP/vvv9N5g7skA/9cA7soA8dQw/Pjf788g78oA/9gA/tcA+tMA78oB7cgA+e6w+vG/7coQ7skB+tIA/tUB/tUA/tYA8MsA784g7soQ8MkA/tQA/9UA/9YA/NQB78kA7McA+e2v+Omf7MUA7scA/tQA/9QA/9YB9s4A7cYA+/HA+vC/7cQB980A/9QB+dAB7MYA89tg+/TP89pg7cQA+M4B/9MA/9QA9s0B7sYB8M8w+/C/+Omg78sg7sUA980A/9IA/9MA/tMA+c8A7cMA7cQB7ssh9d1w9d1w8dJA7sQA+c0B/9IA/9EA/9AA/88A/9MA/tIA/dEA+88A+c0B8ccA7cIA7sMA8scB98sA/dAB/tAA/9EA/9IA/tEA/9AA/9AA/9AA/9AAGbgsvwAAAKt0Uk5TACC/7/7//v/+/57///7+//7+/++f/////////v////7/v//+/v////////7/7/7//////v7+/////v////7///7+///////////+/////v/+//7////+/////v7///////////////////////7+/v////////7//////////+/+/v///v///v+//////v///v////7/nyDv/////v7////+/v/un////u+/ruJrMAAAASNJREFUeJxjYGBkYmZhZWNn52DnBAIuRgYGRmZ2IJubh5ePX4BTUEhImJFBRBQoJyYuISklIS0jKyevoMigpMypoiqupg4EGppa8to6ugxCetoK+gbqYGBopGOso8OgraBgYqoGETIzt7C0tGJQ0LG2MbWFCNnZOzg6OTO4uNq4ubtDhDw8vbx9fBicnH39/NWhwD8gECgUFBwSGhYOEYmIjIqOiWXw8YmLT4Bq9ExMSk5JYUhNS8/IhGnMys7JzWPILygsUoeD4pLSMoaU8opKD5hIVXVNbR1DfV5DY1NWM1igpbWtvaODobOuq7unt6evf8LEnp5Jk6dMncYwfcbMmbNmz5k7b/6ChYsWT128ZDoDw/Sly5ZNBYPly1esXDWdAQBI9Fhb66BIkgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

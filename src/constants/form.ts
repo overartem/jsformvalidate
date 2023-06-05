@@ -1,0 +1,9 @@
+export const GROUP_INPUT_SET_NAME = ["card"];
+export const SINGLE_INPUT_NAME = ["email", "card-name", "coupon-code"];
+export const TOP_NAME_MSG = ["Required"];
+export const RULE_NAME_TOP_MSG = ["required"];
+export const VALIDATE_ERROR_LABEL_CLASS = "just-validate-error-label";
+export const VALIDATE_ERROR_FIELD_CLASS = "just-validate-error-field";
+export const COUPON_FIELD = "#coupon-code";
+export const COUPON_ERROR_FIELD_CLASS = "coupon-failed";
+export const COUPON_SUCCESS_FIELD_CLASS = "coupon-applied";

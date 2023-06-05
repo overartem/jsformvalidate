@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" width="18" height="18">
+	<title>tiktok</title>
+	<defs>
+		<image  width="18" height="18" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAMAAABhEH5lAAAAAXNSR0IB2cksfwAAALFQTFRFICAgISEhISEhISEhLTc8oN/70O79bjlKsOT7////xKOvm6arOU5X8szdYCs9a5+2gqa3OiUsyFJ60KW09qvEbSxCUXuOuOf89/3//OfunzRYLiMmLTg8sOT89Z+8yV2CVCg3P1ll2PL++cPVhjBNRWRy4PT++s/eUyg3/vP3JywvyuPvqKixS2+AfcHg7/r/97fNXWxz9/z/1VR/ST9C3Jux97fM9JO0ukRsICAgICAgvbUiyQAAADt0Uk5TIL//z///////////////////////////////////////////////////////////////////////z79/eiNOAAAAkUlEQVR4nGXQ2RKCMAwF0BAQG0W0agUExX3fd/z/D3Nwai0lT5nzcLMAWFgoG8BGoyxQrePI5k8Vt2oSo1qZqO6ViBq+Iq/Z4ozana74US8II8Goj3EsKRnQMB3lpOLHk+ksz9JovliuMAnWGm22tNsfjieh7XW+UEjRleur3u6P54sbN37HSzLehZgBZEV5wweOIwqwBrbHsgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

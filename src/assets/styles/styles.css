@@ -1,0 +1,26 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "./_variables.css";
+@import "./components/header.css";
+@import "./components/content.css";
+@import "./components/footer.css";
+
+/* html {
+  font-size: 62.5%;
+} */
+
+body {
+  background: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+  color: var(--theme-text-color);
+}
+
+.container {
+  @apply max-w-[1142px] px-4;
+}

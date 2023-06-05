@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Custom checkout" />
+  <title>TS - checkout</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="page-wrapper flex flex-col min-h-screen">
+    <header class="header flex items-center z-[1] min-h-[48px] lg:min-h-[72px]">
+      <div class="container flex justify-between items-center">
+        <img src="assets/images/logo.svg" width="66" height="27" alt="logo" />
+        <a href="#" class="mobile-menu lg:hidden"><img src="assets/images/icons/burger.svg" alt="mobile menu link"></a>
+      </div>
+    </header>
+    <main class="page-main checkout-page flex-auto pt-4 pb-10 lg:pb-16">
+      <div class="container">
+        <div class="step-nav-wrapper">
+          <ul class="step-nav">
+            <li>
+              <p>1</p>
+            </li>
+            <li>
+              <p>2</p>
+            </li>
+            <li>
+              <p>3</p>
+            </li>
+            <li class="active">
+              <p>4</p>
+            </li>
+          </ul>
+          <span class="step-hr"></span>
+        </div>
+        <div
+          class="page-main-wrapper lg:grid-cols-[1fr_minmax(max-content,_453px)_minmax(min-content,_262px)] lg:gap-x-6">
+          <h1
+            class="font-semibold text-center mb-2 md:text-xl md:text-left md:leading-[30px] md:mb-[18px] lg:ml-[100px]">
+            Finish your order
+          </h1>
+          <div class="sidebar-left order-2 md:order-none">
+            <img class="product-image hidden lg:block" src="assets/images/product.svg" alt="product image" />
+            <div class="sidebar-features">
+              <p class="features-title mb-[9px] md:mb-[17px]">
+                You get all these features:
+              </p>
+              <ul class="sidebar-features-list">
+                <li>
+                  <img src="assets/images/features/social.svg" alt="like" />
+                  <span>Feature 1</span>
+                  <div class="feature-box">
+                    <ul class="grid gap-x-6 gap-y-3.5">
+                      <li>
+                        <img src="assets/images/socials/fb-mess.svg" alt="fb-mess" />
+                      </li>
+                      <li>
+                        <img src="assets/images/socials/fb.svg" alt="fb" />
+                      </li>
+                      <li>
+                        <img src="assets/images/socials/hangouts.svg" alt="hangouts" />
+                      </li>
+                      <li>
+                        <img src="assets/images/socials/inst.svg" alt="inst" />
+                      </li>
+                      <li>
+                        <img src="assets/images/socials/Kik.svg" alt="Kik" />
+                      </li>
+                      <li>
+                        <img src="assets/images/socials/line.svg" alt="line" />
+                      </li>
+                      <li>
+                        <img src="assets/images/socials/reddit.svg" alt="reddit" />
+                      </li>
+                      <li>
+                        <img src="assets/images/socials/signal.svg" alt="signal" />
+                      </li>
+                      <li>
+                        <img src="assets/images/socials/Skype.svg" alt="Skype" />
+                      </li>
+                      <li>
+                        <img src="assets/images/socials/snapchat.svg" alt="snapchat" />
+                      </li>
+                      <li>
+                        <img src="assets/images/socials/tg.svg" alt="tg" />
+                      </li>
+                      <li>
+                        <img src="assets/images/socials/tiktok.svg" alt="tiktok" />
+                      </li>
+                      <li>
+                        <img src="assets/images/socials/tinder.svg" alt="tinder" />
+                      </li>
+                      <li>
+                        <img src="assets/images/socials/viber.svg" alt="viber" />
+                      </li>
+                      <li>
+                        <img src="assets/images/socials/wechat.svg" alt="wechat" />
+                      </li>
+                      <li>
+                        <img src="assets/images/socials/whatsapp.svg" alt="whatsapp" />
+                      </li>
+                      <li>
+                        <img src="assets/images/socials/youtube.svg" alt="youtube" />
+                      </li>
+                      <li>
+                        <img src="assets/images/socials/zoom.svg" alt="zoom" />
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <img src="assets/images/features/calls.svg" alt="phone" /><span>Feature 2</span>
+                </li>
+                <li>
+                  <img src="assets/images/features/contact.svg" alt="contact" /><span>Feature 3</span>
+                </li>
+                <li>
+                  <img src="assets/images/features/sms.svg" alt="sms" /><span>Feature 4</span>
+                </li>
+                <li>
+                  <img src="assets/images/features/location.svg" alt="location" /><span>Feature 5</span>
+                </li>
+                <li>
+                  <img src="assets/images/features/gallery.svg" alt="gallery" /><span>Feature 6</span>
+                </li>
+                <li>
+                  <img src="assets/images/features/keyboard.svg" alt="keyboard" /><span>Feature 7</span>
+                </li>
+                <li>
+                  <img src="assets/images/features/browser_history.svg" alt="browser-history" /><span>Feature
+                    8</span>
+                </li>
+                <li>
+                  <img src="assets/images/features/clarity_heart.svg" alt="clarity-heart" /><span>Feature 9</span>
+                </li>
+                <li>
+                  <img src="assets/images/features/email_2.svg" alt="email" /><span>Feature 10</span>
+                </li>
+                <li>
+                  <img src="assets/images/features/world-wide-web.svg" alt="world-wide-web" /><span>Feature
+                    11</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="page-content order-1 md:order-none">
+            <div class="order-information mb-2 px-4 md:mb-4 md:px-0">
+              <p class="plan"><span>Plan</span><span>Full Pack</span></p>
+              <p class="subscription">
+                <span>Subscription Period</span><span>3 months</span>
+              </p>
+              <p class="price">
+                <span>1 month price</span><span>$ 29.99</span>
+              </p>
+            </div>
+            <div class="checkout-form-wrapper md:border md:rounded p-4 pb-0 md:p-6 md:pb-[6px] bg-white">
+              <button type="button"
+                class="apple-pay w-full rounded text-white text-center bg-[color:var(--theme-bold-color)] h-[42px] md:h-[48px]">
+                <img src="assets/images/icons/cib_apple_pay.svg" class="mx-auto" alt="Apple pay" />
+              </button>
+              <div class="hr-from relative text-center">
+                <p class="text-center">Or pay with card</p>
+              </div>
+              <form action="#" class="checkout-form">
+                <label for="email">
+                  <span>Email</span>
+                  <div class="validate-form-container validate-email-container-top text-right"></div>
+                  <div class="input-container">
+                    <img src="assets/images/icons/letter.svg" alt="letter input" class="input-icon" />
+                    <input type="text" name="email" id="email" data-rules="bail|required|email"
+                      placeholder="examplemail@mail.com" />
+                  </div>
+                  <div class="validate-form-container-bottom validate-container_email_bottom text-right"></div>
+                </label>
+
+                <fieldset class="card-info-set" name="card-info-set">
+                  <label for="card"><span>Card information</span></label>
+                  <div class="validate-form-container validate-card-container-top text-right"></div>
+                  <div class="input-container card-number-container">
+                    <img src="assets/images/icons/design_credit-card.svg" alt="card number input" class="input-icon" />
+                    <input type="text" name="card" id="card" data-rules="bail|required|digits:16" minlength="16"
+                      maxlength="16" placeholder="0000 0000 0000 0000" />
+                  </div>
+                  <div class="input-container card-date-container">
+                    <img src="assets/images/icons/design_calendar-outlined.svg" alt="card date input"
+                      class="input-icon" />
+                    <!-- data-rules="bail|required|x-regex:date" -->
+                    <input type="text" name="card-date" id="card-date" data-rules="bail|required|x-regex:date"
+                      minlength="7" maxlength="7" placeholder="MM/YYYY" />
+                  </div>
+                  <div class="input-container card-cvv-container">
+                    <img src="assets/images/icons/icons8_lock_card.svg" alt="card cvv input" class="input-icon" />
+                    <input type="password" name="card-cvv" id="card-cvv" data-rules="bail|required|digits:3"
+                      minlength="3" maxlength="3" placeholder="CVV" />
+                  </div>
+                  <div class="validate-form-container-bottom validate-container_card_bottom"></div>
+                </fieldset>
+                <label for="card-name"><span>Name on card</span>
+                  <div class="validate-form-container validate-card-name-container-top text-right"></div>
+                  <div class="input-container">
+                    <img src="assets/images/icons/design_usersvg.svg" alt="cardholder input" class="input-icon" />
+                    <input type="text" name="card-name" id="card-name" data-rules="required"
+                      placeholder="Enter cardholder name" />
+                  </div>
+                </label>
+
+                <div class="coupon-wrapper">
+                  <a href="#" class="coupon-link">I have a coupon code</a>
+                  <div class="coupon-form-dropdown w-full">
+                    <input type="text" name="coupon-code" id="coupon-code" class="coupon-input"
+                      placeholder="Enter your promo code" />
+                    <p class="coupon-apply"><span>Apply</span></p>
+                    <p class="coupon-remove"><img src="assets/images/icons/clarity_trash-line.svg" alt="remove coupon code"></p>
+                    <div class="validate-form-container-bottom validate-container_coupon-code_bottom"></div>
+                  </div>
+                </div>
+                <button type="submit"
+                  class="capitalize w-full rounded text-white text-[13px] leading-5 font-bold text-center bg-[color:var(--theme-blue-color)] h-[42px] md:h-[54px] md:leading-6 md:text-base md:mb-1">
+                  Submit order
+                </button>
+              </form>
+              <div class="hr-from hr-from relative text-center">
+                <p class="text-center">Or alternative methods</p>
+              </div>
+              <div class="payment-companies-block">
+                <div class="payment-companies-tab flex flex-wrap items-center justify-center gap-x-5 md:gap-x-7">
+                  <div class="payment-companies-item">
+                    <img src="assets/images/icons/paypal.svg" alt="paypal" />
+                    <img src="assets/images/icons/paypal_active.svg" class="payment-companies-active" alt="paypal" />
+                  </div>
+                  <div class="payment-companies-item">
+                    <img src="assets/images/icons/b_pay.svg" alt="b-pay" />
+                    <img src="assets/images/icons/b_pay_active.svg" class="payment-companies-active" alt="b-pay" />
+                  </div>
+                </div>
+                <div class="payment-companies-dropdown w-full">
+                  <button type="button">
+                    <img src="assets/images/icons/paypal.svg" class="mx-auto" alt="Paypal pay" />
+                  </button>
+                  <button type="button">
+                    <img src="assets/images/icons/b_pay.svg" class="mx-auto" alt="B pay" />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="page-bottom-content mt-5 flex flex-wrap justify-center px-4 md:mt-6 md:px-0">
+              <div class="secure-info-status text-center w-full mb-4 order-1">
+                <span class="text-sm text-[color:var(--theme-thin-color)]">Automatic Renewal:</span>
+                <span class="secure-info-status on text-sm font-medium ml-1">ON</span>
+              </div>
+              <p
+                class="text-[13px] text-[color:var(--theme-thin-color)] text-center order-3 lg:order-2 lg:mb-4 md:text-left md:text-xs md:leading-[18px]">
+                By clicking "submit order" you agree to
+                <a href="#">Terms of service</a> &
+                <a href="#">Recurring Policy</a> as well as to
+                <a href="#">Refund Policy</a> &
+                <a href="#">Legal Disclaimer</a>.
+              </p>
+              <div class="secure-block flex justify-between order-2 mb-4 lg:mb-0 lg:order-3 gap-4">
+                <div class="secure-item">
+                  <img src="assets/images/secure/visa.svg" alt="visa secure" />
+                </div>
+                <div class="secure-item">
+                  <img src="assets/images/secure/mastercard.svg" alt="Mastercard secure" />
+                </div>
+                <div class="secure-item">
+                  <img src="assets/images/secure/ssl.svg" alt="SSL secure" />
+                </div>
+                <div class="secure-item">
+                  <img src="assets/images/secure/mcafee.svg" alt="Mcafee secure" />
+                </div>
+                <div class="secure-item">
+                  <img src="assets/images/secure/norton.svg" alt="Norton secure" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar-right order-3 pt-1 md:order-none">
+            <div class="sidebar-right-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                aliquam, purus sit amet luctus venenatis, lectus magna Lorem
+                ipsum dolor sit amet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div
+          class="top-footer border-b border-white flex flex-wrap justify-between md:gap-x-6 pt-[30px] pb-6 md:pb-9 md:pt-16">
+          <div class="logo-block">
+            <img src="assets/images/logo.svg" class="mb-3" alt="logo" />
+            <p class="text-white text-xs leading-[18px] font-light md:font-normal">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. A massa
+              scelerisque venenatis orci urna sed lobortis. Vitae cras augue
+              orci cum scelerisque maecenas risus arcu. Gravida suscipit amet
+              nullam augue vel, non amet pharetra elementum. Leo suspendisse
+              amet condimentum eu gravida eu nisl. Iaculis ac turpis nibh
+              mauris mollis cras faucibus gravida sit.
+            </p>
+          </div>
+          <div class="footer-navigations flex flex-wrap md:justify-between md:gap-x-6 grow">
+            <div class="nav-item">
+              <h3>About us</h3>
+              <ul class="ul-nav">
+                <li><a href="#">Demo</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact us</a></li>
+              </ul>
+            </div>
+            <div class="nav-item">
+              <h3>Service legal terms</h3>
+              <ul class="ul-nav">
+                <li><a href="#">Eula</a></li>
+                <li><a href="#">refund policy</a></li>
+                <li><a href="#">recurring policy</a></li>
+                <li><a href="#">cookie notice</a></li>
+                <li><a href="#">privacy notice</a></li>
+              </ul>
+            </div>
+            <div class="nav-item">
+              <h3>Partners</h3>
+              <ul class="ul-nav">
+                <li><a href="#">Demo</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </div>
+            <div class="nav-item">
+              <h3>Follow us</h3>
+              <ul class="ul-nav social-nav">
+                <li>
+                  <a href="#"><img src="assets/images/footer/fb.svg" alt="fb" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="assets/images/footer/inst.svg" alt="inst" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="assets/images/footer/yt.svg" alt="youtube" /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-footer pt-6 text-white md:pt-9">
+          <div class="bottom-footer-content mb-4 md:mb-[18px] md:flex md:justify-between">
+            <ul class="lang-nav flex flex-col gap-y-4 mb-4 md:mb-0 md:flex-row md:gap-x-8 md:gap-y-0">
+              <li class="current-lang">
+                <a href="#">English</a>
+                <ul class="lang-nav-dropdown">
+                  <li><a href="#">Ukranian</a></li>
+                  <li><a href="#">Italian</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Terms of service</a></li>
+            </ul>
+            <a href="#">Secure internet payments</a>
+          </div>
+          <div
+            class="footer-copyright pb-6 flex flex-wrap gap-y-6 md:gap-y-0 md:justify-between md:pb-12 md:items-center">
+            <p class="copyright text-xs capitalize text-center w-full md:w-auto md:text-left order-2 md:order-1">
+              © 2020 LOGO | All Rights Reserved.
+            </p>
+            <div
+              class="secure-footer-block flex gap-x-8 order-1 w-full justify-between md:justify-start md:w-auto md:order-2">
+              <img src="assets/images/footer/safe_card.svg" alt="safe card" />
+              <img src="assets/images/footer/ssl.svg" alt="ssl card" />
+              <img src="assets/images/footer/pci.svg" alt="pci" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script type="module" src="main.ts"></script>
+</body>
+
+</html>
